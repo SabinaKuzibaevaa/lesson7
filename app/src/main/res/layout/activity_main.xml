@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose"
+        />
+
+    <TextView
+        android:id="@+id/phone"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        />
+
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose"
+        />
+
+    <TextView
+        android:id="@+id/socialmedia"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Social Media"
+        />
+
+    <TextView
+        android:id="@+id/sign"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/with_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-mail" />
+        <RadioButton
+            android:id="@+id/whith_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone number" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/users"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User devices"
+        />
+
+    <CheckBox
+        android:id="@+id/computer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Computer" />
+
+    <CheckBox
+        android:id="@+id/laptop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Laptop" />
+
+    <CheckBox
+        android:id="@+id/tablet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tablet" />
+
+    <CheckBox
+        android:id="@+id/smartphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Smartphone" />
+
+    <Button
+        android:id="@+id/create_acc"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        />
+
+
+
+</LinearLayout>
